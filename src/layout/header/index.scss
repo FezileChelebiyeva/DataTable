@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(22, 158, 113);
+  margin-bottom: 60px;
+  a {
+    text-decoration: none;
+    .logo {
+      font-weight: 700;
+      color: rgb(8, 78, 51);
+    }
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      a {
+        text-decoration: none;
+        margin: 0 20px;
+        color: rgb(248, 248, 248);
+        &.active {
+          text-decoration: underline;
+          color: rgb(4, 51, 10);
+        }
+      }
+    }
+  }
+}

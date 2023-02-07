@@ -4,7 +4,14 @@ import "./index.scss";
 const Header = () => {
   return (
     <div className="header">
+      <NavLink to={"/"}>
+        <div className="logo">NORTHWIND</div>
+      </NavLink>
+
       <ul>
+        <li>
+          <NavLink to={"/"}>Home</NavLink>
+        </li>
         <li>
           <NavLink to={"/suppliers-page"}>Suppliers</NavLink>
         </li>
